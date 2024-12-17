@@ -55,4 +55,6 @@ dependencies {
     implementation(libs.android.gson)
     //circle image
     implementation(libs.android.circle)
+    //glide
+    implementation(libs.android.glide)
 }

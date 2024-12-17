@@ -14,6 +14,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import app.example.pruebagit.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -26,7 +27,10 @@ public final class ActivityRegistrarUsuarioBinding implements ViewBinding {
   public final Button btnRegistrar;
 
   @NonNull
-  public final ImageView image;
+  public final CircleImageView image;
+
+  @NonNull
+  public final ImageView imageCambiar;
 
   @NonNull
   public final ConstraintLayout main;
@@ -50,13 +54,15 @@ public final class ActivityRegistrarUsuarioBinding implements ViewBinding {
   public final TextView tvTengoCuenta;
 
   private ActivityRegistrarUsuarioBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnRegistrar, @NonNull ImageView image, @NonNull ConstraintLayout main,
-      @NonNull EditText nombreUsuario, @NonNull EditText numeroCedula,
-      @NonNull EditText passwordUsuario, @NonNull EditText saldoUsuario,
-      @NonNull EditText tipoCuentaUsuario, @NonNull TextView tvTengoCuenta) {
+      @NonNull Button btnRegistrar, @NonNull CircleImageView image, @NonNull ImageView imageCambiar,
+      @NonNull ConstraintLayout main, @NonNull EditText nombreUsuario,
+      @NonNull EditText numeroCedula, @NonNull EditText passwordUsuario,
+      @NonNull EditText saldoUsuario, @NonNull EditText tipoCuentaUsuario,
+      @NonNull TextView tvTengoCuenta) {
     this.rootView = rootView;
     this.btnRegistrar = btnRegistrar;
     this.image = image;
+    this.imageCambiar = imageCambiar;
     this.main = main;
     this.nombreUsuario = nombreUsuario;
     this.numeroCedula = numeroCedula;
@@ -100,8 +106,14 @@ public final class ActivityRegistrarUsuarioBinding implements ViewBinding {
       }
 
       id = R.id.image;
-      ImageView image = ViewBindings.findChildViewById(rootView, id);
+      CircleImageView image = ViewBindings.findChildViewById(rootView, id);
       if (image == null) {
+        break missingId;
+      }
+
+      id = R.id.imageCambiar;
+      ImageView imageCambiar = ViewBindings.findChildViewById(rootView, id);
+      if (imageCambiar == null) {
         break missingId;
       }
 
@@ -144,8 +156,8 @@ public final class ActivityRegistrarUsuarioBinding implements ViewBinding {
       }
 
       return new ActivityRegistrarUsuarioBinding((ConstraintLayout) rootView, btnRegistrar, image,
-          main, nombreUsuario, numeroCedula, passwordUsuario, saldoUsuario, tipoCuentaUsuario,
-          tvTengoCuenta);
+          imageCambiar, main, nombreUsuario, numeroCedula, passwordUsuario, saldoUsuario,
+          tipoCuentaUsuario, tvTengoCuenta);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

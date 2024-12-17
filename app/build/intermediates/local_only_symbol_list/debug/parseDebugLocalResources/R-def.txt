@@ -40,6 +40,7 @@ id etNum2
 id etUsuarioEncontrado
 id fondo
 id image
+id imageCambiar
 id imageSalir
 id imageViewC
 id imagenNombreLayout

@@ -8,7 +8,7 @@
     android:gravity="center"
     android:layout_marginHorizontal="10dp"
     android:layout_height="match_parent"
-    tools:context=".calculadora.MainActivity2">
+    tools:context=".calculadorApp.MainActivity2">
     <EditText
         android:id="@+id/etNum1"
         android:layout_width="match_parent"
@@ -77,11 +77,6 @@
         android:padding="10dp"
         android:textSize="20sp"
         android:text="Mostrar Resultado" />
-    <Button
-        android:id="@+id/btnCuenta"
-        android:text="Cuenta Banco"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
