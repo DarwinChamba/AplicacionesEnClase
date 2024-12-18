@@ -1,210 +1,214 @@
 [
     {
-        "merged": "app.example.pruebagit.app-debug-35:/xml_backup_rules.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\xml_activity_splash_screen_scene.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\xml\\activity_splash_screen_scene.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_img_calculadora_app.jpeg.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/img_calculadora_app.jpeg"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_main.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_nombre.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\nombre.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_porque.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\porque.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_back_4.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/back_4.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_img_calculadora_app.jpeg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\img_calculadora_app.jpeg"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_main.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_calendarioinicio.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/calendarioinicio.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_logeousuario.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\logeousuario.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/xml_data_extraction_rules.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_registrar_usuario.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_registrar_usuario.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_cas.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\cas.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_dosvidas.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/dosvidas.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_matematica.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\matematica.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_juego.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_juego.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_notas_uno.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\notas_uno.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_back_1.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/back_1.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_iniciar_sesion.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_iniciar_sesion.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_back_1.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\back_1.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_registrar_usuario.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_registrar_usuario.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_splash_screen.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_back_splash.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\back_splash.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_matematica.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/matematica.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_main2.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_back_splash.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/back_splash.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_parcelable.jpeg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\parcelable.jpeg"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_parcelable.jpeg.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/parcelable.jpeg"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_mujerprogramando.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\mujerprogramando.json"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_splash_screen.xml"
     },
     {
         "merged": "app.example.pruebagit.app-debug-35:/layout_activity_cuenta_usuario.xml.flat",
         "source": "app.example.pruebagit.app-main-37:/layout/activity_cuenta_usuario.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_logeousuario.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/logeousuario.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_notas_dos.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\notas_dos.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_notas_dos.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/notas_dos.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_adduser.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/adduser.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_instituto_bg.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\instituto_bg.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_nombre.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/nombre.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_ic_salir.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/ic_salir.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_giroconfiguracion.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\giroconfiguracion.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_vistoverdecirculo.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/vistoverdecirculo.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_image_perfil.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\image_perfil.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_unavida.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/unavida.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_vistoverdecirculo.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\vistoverdecirculo.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_primero.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/primero.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_cuenta_usuario.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_cuenta_usuario.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_mujerprogramando.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/mujerprogramando.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_calendarioinicio.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\calendarioinicio.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_giroconfiguracion.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/giroconfiguracion.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_loading.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\loading.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_unavida.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\unavida.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_tresvidas.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\tresvidas.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_ic_transferir.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/ic_transferir.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_registrarlibreta.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/registrarlibreta.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_image_perfil.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/image_perfil.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_juego.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_juego.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_main2.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_main2.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_back_4.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\back_4.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_segunda_animacion.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_segunda_animacion.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_dosvidas.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\dosvidas.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_notas_uno.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/notas_uno.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_ic_transferir.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\ic_transferir.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_tresvidas.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/tresvidas.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_porque.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/porque.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/raw_loading.json.flat",
-        "source": "app.example.pruebagit.app-main-37:/raw/loading.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_registrarlibreta.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\registrarlibreta.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_cas.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/cas.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_ic_salir.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\ic_salir.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/drawable_instituto_bg.png.flat",
-        "source": "app.example.pruebagit.app-main-37:/drawable/instituto_bg.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\raw_adduser.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\raw\\adduser.json"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "app.example.pruebagit.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\drawable_primero.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\drawable\\primero.png"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/xml_activity_splash_screen_scene.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/xml/activity_splash_screen_scene.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-debug-35:/layout_activity_iniciar_sesion.xml.flat",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_iniciar_sesion.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-debug-35:\\layout_activity_segunda_animacion.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_segunda_animacion.xml"
     }
 ]

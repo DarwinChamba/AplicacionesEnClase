@@ -48,7 +48,8 @@ class RegistrarUsuario : AppCompatActivity() {
 
         val newUser= Usuario(id++,cedula,nombre, saldo.toFloat() ,"",pass,imagen)
         irNuevaPantalla(newUser)
-        Data.data.add(newUser)
+
+
         Toast.makeText(this, "usuario registrado", Toast.LENGTH_SHORT).show()
 
     }

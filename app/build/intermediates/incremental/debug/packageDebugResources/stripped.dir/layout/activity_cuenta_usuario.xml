@@ -64,6 +64,7 @@
             app:layout_constraintTop_toBottomOf="@id/imageViewC" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
+
             android:id="@+id/layoutTransferir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,7 +103,6 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/imagenNombreLayout"
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/tvTitleNumeroCuenta">
@@ -134,7 +134,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:visibility="gone"
                 android:weightSum="5"
                 app:layout_constraintTop_toBottomOf="@id/imagenNombreLayout">
 

@@ -1,34 +1,38 @@
 [
     {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_main2.xml"
+    },
+    {
         "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_cuenta_usuario.xml",
         "source": "app.example.pruebagit.app-main-37:/layout/activity_cuenta_usuario.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_iniciar_sesion.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_iniciar_sesion.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_cuenta_usuario.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_cuenta_usuario.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_splash_screen.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_iniciar_sesion.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_iniciar_sesion.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_main.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_juego.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_juego.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_main2.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_main2.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_registrar_usuario.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_registrar_usuario.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_segunda_animacion.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_segunda_animacion.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_segunda_animacion.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_segunda_animacion.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_juego.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_juego.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "app.example.pruebagit.app-mergeDebugResources-34:/layout/activity_registrar_usuario.xml",
-        "source": "app.example.pruebagit.app-main-37:/layout/activity_registrar_usuario.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-mergeDebugResources-34:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\app.example.pruebagit.app-main-37:\\layout\\activity_main.xml"
     }
 ]

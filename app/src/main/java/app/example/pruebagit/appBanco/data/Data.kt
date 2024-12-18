@@ -1,5 +1,8 @@
 package app.example.pruebagit.appBanco.data
 
-object Data {
-    var data= mutableListOf<Usuario>()
+import android.content.Context
+import com.google.gson.Gson
+
+class Data {
+
 }

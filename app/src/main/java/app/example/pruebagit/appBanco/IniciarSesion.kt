@@ -5,10 +5,12 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import app.example.pruebagit.R
 import app.example.pruebagit.appBanco.data.Data
+import app.example.pruebagit.appBanco.data.Usuario
 import app.example.pruebagit.databinding.ActivityIniciarSesionBinding
 
 class IniciarSesion : AppCompatActivity() {
@@ -36,22 +38,16 @@ class IniciarSesion : AppCompatActivity() {
     }//llave cierre metodo onCreate
 
     private fun incioSesion() {
-        val usuario = binding.usuarioInico.text.toString().trim()
-        val password = binding.passwordInicio.text.toString().trim()
-
-        val usuarioActual = Data.data.find {
-            it.nombre.equals(usuario) && it.password.equals(password)
-
-        }
+        //val usuario = binding.usuarioInico.text.toString().trim()
+        val numeroCedula = binding.passwordInicio.text.toString().trim()
 
 
 
-
-        if(usuarioActual != null){
-            Toast.makeText(this, "hola ${usuarioActual.nombre} y tu contrase;a es ${usuarioActual.password}", Toast.LENGTH_SHORT).show()
-        }else
-            Toast.makeText(this, "usuario no registrado", Toast.LENGTH_SHORT).show()
-
+    }
+    private fun  irNuevaPantalla(usuario: Usuario){
+        val intent =Intent(this,CuentaUsuario::class.java)
+        intent.putExtra("user",usuario)
+        startActivity(intent)
     }
 
 
