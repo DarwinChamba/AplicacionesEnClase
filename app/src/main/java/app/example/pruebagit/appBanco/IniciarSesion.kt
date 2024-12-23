@@ -15,6 +15,10 @@ import app.example.pruebagit.databinding.ActivityIniciarSesionBinding
 
 class IniciarSesion : AppCompatActivity() {
     private lateinit var binding: ActivityIniciarSesionBinding
+
+    val data by lazy { Data(this) }
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -40,6 +44,13 @@ class IniciarSesion : AppCompatActivity() {
     private fun incioSesion() {
         //val usuario = binding.usuarioInico.text.toString().trim()
         val numeroCedula = binding.passwordInicio.text.toString().trim()
+
+       val user= data.getUser(numeroCedula)
+        if(user != null){
+            irNuevaPantalla(user)
+        }else{
+            Toast.makeText(this, "usuario no registrado", Toast.LENGTH_SHORT).show()
+        }
 
 
 

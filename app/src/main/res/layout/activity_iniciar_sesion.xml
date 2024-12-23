@@ -15,6 +15,7 @@
         android:layout_height="wrap_content">
         <!--vista para el saldo usuario-->
         <EditText
+            android:visibility="gone"
             android:id="@+id/usuarioInico"
             android:hint="nombre Usuario"
             android:layout_width="match_parent"
@@ -23,7 +24,7 @@
         <!--vista para el tipo de cuenta-->
         <EditText
             android:id="@+id/passwordInicio"
-            android:hint="Ingrese su contraseña"
+            android:hint="Ingrese su cedula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
