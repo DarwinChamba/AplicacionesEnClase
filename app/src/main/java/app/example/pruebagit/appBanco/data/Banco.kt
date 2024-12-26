@@ -10,11 +10,13 @@ class Banco(val context: Context):Operaciones { //7.5
     }
 
     override fun retirar(saldo: Float, usuario: Usuario) {
-        TODO("Not yet implemented")
+        val newUser=usuario.copy(saldo=saldo-usuario.saldo)
+        data.saveUser(newUser)
     }
 
     override fun transferir(saldo: Float, usuario: Usuario) {
-        TODO("Not yet implemented")
+        val newUser=usuario.copy(saldo=saldo+usuario.saldo)
+        data.saveUser(newUser)
     }
 
 }

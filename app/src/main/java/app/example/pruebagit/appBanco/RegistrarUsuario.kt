@@ -21,6 +21,7 @@ class RegistrarUsuario : AppCompatActivity() {
     me permite enlazar las vistas directamente
      */
     var id = 0
+    var imagen=""
     private lateinit var binding: ActivityRegistrarUsuarioBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +45,7 @@ class RegistrarUsuario : AppCompatActivity() {
         val pass = binding.passwordUsuario.text.toString().trim()
         val saldo = binding.saldoUsuario.text.toString().trim()
         val cedula = binding.numeroCedula.text.toString().trim()
-        val imagen = ""
+
 
         val newUser = Usuario(id++, cedula, nombre, saldo.toFloat(), "", pass, imagen)
         irNuevaPantalla(newUser)
@@ -73,6 +74,7 @@ class RegistrarUsuario : AppCompatActivity() {
         if (it.resultCode == Activity.RESULT_OK) {
             val intent = it.data
             val uri = intent?.data
+            imagen=uri.toString()
             Glide.with(this).load(uri).into(binding.image)
         }
     }

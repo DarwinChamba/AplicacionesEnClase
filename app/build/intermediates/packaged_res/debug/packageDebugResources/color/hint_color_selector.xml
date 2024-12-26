@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Color cuando está enfocado -->
-    <item android:color="@color/blue" android:state_focused="true" />
-    <!-- Color cuando no está enfocado -->
-    <item android:color="@color/blue" android:state_active="true" />
-    <!-- Color predeterminado (cuando no está enfocado) -->
-    <item android:color="@color/blue" />
-</selector>

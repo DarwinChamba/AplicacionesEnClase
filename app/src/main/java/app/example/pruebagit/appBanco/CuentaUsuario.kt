@@ -9,9 +9,12 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import app.example.pruebagit.R
+import app.example.pruebagit.appBanco.data.Banco
+import app.example.pruebagit.appBanco.data.Data
 import app.example.pruebagit.appBanco.data.Usuario
 import app.example.pruebagit.databinding.ActivityCuentaUsuarioBinding
 import app.example.pruebagit.databinding.ActivityRegistrarUsuarioBinding
@@ -19,7 +22,8 @@ import com.bumptech.glide.Glide
 
 class CuentaUsuario : AppCompatActivity() {
     private lateinit var binding: ActivityCuentaUsuarioBinding
-
+    private var usuarioActual: Usuario? = null
+    private val data by lazy { Banco(this) }
 
     @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,14 +36,30 @@ class CuentaUsuario : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-//123
-        val usuarioActual = intent.getParcelableExtra<Usuario>("user")
+        getInformationUser()
+        binding.btnBuscarUsuario.setOnClickListener {
+            searchUser()
+        }
+
+    }
+
+    private fun searchUser() {
+        val cedula=binding.etUsuarioEncontrado.text.toString().trim()
+        val user=data.buscarUsuario(cedula)
+        println("usuario $user")
+        user?.let {
+            Glide.with(this).load(it.imagen.toUri()).into(binding.imagenUsuarioBuscado)
+
+        }
+    }
+
+    private fun getInformationUser() {
+        usuarioActual = intent.getParcelableExtra<Usuario>("user")
         usuarioActual?.let { newUser ->
             binding.title.setText(newUser.nombre)
             binding.tvSaldoUsuario.setText(newUser.saldo.toString())
+            Glide.with(this).load(newUser.imagen.toUri()).into(binding.imageViewC)
         }
-
-
     }
 
 
