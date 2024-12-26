@@ -9,9 +9,10 @@ class Banco(val context: Context):Operaciones { //7.5
        return  data.getUser(numero)
     }
 
-    override fun retirar(saldo: Float, usuario: Usuario) {
-        val newUser=usuario.copy(saldo=saldo-usuario.saldo)
+    override fun retirar(saldo: Float, usuario: Usuario):Usuario? {
+        val newUser=usuario.copy(saldo=usuario.saldo-saldo)
         data.saveUser(newUser)
+        return newUser
     }
 
     override fun transferir(saldo: Float, usuario: Usuario) {

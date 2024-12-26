@@ -24,6 +24,7 @@ class CuentaUsuario : AppCompatActivity() {
     private lateinit var binding: ActivityCuentaUsuarioBinding
     private var usuarioActual: Usuario? = null
     private val data by lazy { Banco(this) }
+    private var user :Usuario?=null
 
     @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,16 +41,31 @@ class CuentaUsuario : AppCompatActivity() {
         binding.btnBuscarUsuario.setOnClickListener {
             searchUser()
         }
+        binding.btnTranfesrir.setOnClickListener {
+            transferirDinero()
+        }
+        binding.imageSalir.setOnClickListener {
+            startActivity(Intent(this,IniciarSesion::class.java))
+            finish()
+        }
+    }
 
+    private fun transferirDinero() {
+        val dinero=binding.etCantidadDepositar.text.toString().trim()
+        if(!dinero.isNullOrEmpty()){
+          usuarioActual=  data.retirar(dinero.toFloat(),usuarioActual!!)
+            binding.tvSaldoUsuario.setText(usuarioActual?.saldo.toString())
+            data.transferir(dinero.toFloat(),user!!)
+        }
     }
 
     private fun searchUser() {
-        val cedula=binding.etUsuarioEncontrado.text.toString().trim()
-        val user=data.buscarUsuario(cedula)
+        val cedula = binding.etUsuarioEncontrado.text.toString().trim()
+        user = data.buscarUsuario(cedula)
         println("usuario $user")
         user?.let {
             Glide.with(this).load(it.imagen.toUri()).into(binding.imagenUsuarioBuscado)
-
+            binding.tvNombreUsuarioB.setText(it.nombre)
         }
     }
 
